@@ -3,45 +3,42 @@
 const Testimonial = () => {
     return (
         <div>
-            <section className="text-gray-600 body-font mb-10">
+            <section className="mb-10 text-gray-600 body-font">
                 {/* main  */}
                 <div className="container px-5 py-10 mx-auto">
                     {/* Heading  */}
-                    <h1 className=' text-center text-3xl font-bold text-black' >Testimonial</h1>
+                    <h1 className='text-3xl font-bold text-center text-black ' >Testimonial</h1>
                     {/* para  */}
-                    <h2 className=' text-center text-2xl font-semibold mb-10' >What our <span className=' text-pink-500'>customers</span> are saying</h2>
+                    <h2 className='mb-10 text-2xl font-semibold text-center ' >What our <span className='text-pink-500 '>customers</span> are saying</h2>
 
                     <div className="flex flex-wrap -m-4">
                         {/* Testimonial 1 */}
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://ecommerce-sk.vercel.app/img/kamal.png" />
-                                <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
-                                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">Kamal Nayan Upadhyay</h2>
-                                <p className="text-gray-500">Senior Product Designer</p>
+                                <p className="leading-relaxed">The E-Commerce platform MyStore built for us is nothing short of exceptional. The user interface is intuitive, and the checkout process is smooth and secure. Our customers love the experience, and we’ve seen a significant boost in sales since launching. I highly recommend Parthib Sarkar for his professionalism and technical expertise!</p>
+                                <span className="inline-block w-10 h-1 mt-6 mb-4 bg-pink-500 rounded" />
+                                <h2 className="text-sm font-medium tracking-wider text-gray-900 uppercase title-font"></h2>
+                                <p className="text-gray-500"></p>
                             </div>
                         </div>
 
                         {/* Testimonial 2 */}
-                        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                        <div className="p-4 mb-6 lg:w-1/3 lg:mb-0">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://www.devknus.com/img/gawri.png" />
-                                <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
-                                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">S Mishra</h2>
-                                <p className="text-gray-500">UI Develeoper</p>
+                                <p className="leading-relaxed">Working with Parthib Sarkar to build our e-commerce site was a breeze. They understood our vision and brought it to life with an easy-to-navigate platform that is both visually appealing and functional. The site handles traffic effortlessly, and the admin dashboard makes managing our products a joy. We couldn’t be happier!</p>
+                                <span className="inline-block w-10 h-1 mt-6 mb-4 bg-pink-500 rounded" />
+                                <h2 className="text-sm font-medium tracking-wider text-gray-900 uppercase title-font"></h2>
+                                <p className="text-gray-500"></p>
                             </div>
                         </div>
 
                         {/* Testimonial 3 */}
-                        <div className="lg:w-1/3 lg:mb-0 p-4">
+                        <div className="p-4 lg:w-1/3 lg:mb-0">
                             <div className="h-full text-center">
-                                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://firebasestorage.googleapis.com/v0/b/devknus-official-database.appspot.com/o/images%2FScreenshot%202023-07-07%20at%202.20.32%20PM-modified.png?alt=media&token=324ddd80-2b40-422c-9f1c-1c1fa34943fa" />
-                                <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
-                                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">XYZ </h2>
-                                <p className="text-gray-500">CTO</p>
+                                <p className="leading-relaxed">Our new e-commerce store has been a game-changer, and we owe it all to Parthib Sarkar! From product listings to secure payments, everything works seamlessly. The platform is responsive, fast, and designed beautifully. I highly recommend Parthib Sarkar for anyone looking to build a robust online store.</p>
+                                <span className="inline-block w-10 h-1 mt-6 mb-4 bg-pink-500 rounded" />
+                                <h2 className="text-sm font-medium tracking-wider text-gray-900 uppercase title-font"></h2>
+                                <p className="text-gray-500"></p>
                             </div>
                         </div>
                     </div>

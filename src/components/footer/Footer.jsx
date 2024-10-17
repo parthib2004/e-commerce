@@ -4,28 +4,28 @@ const Footer = () => {
     return (
         <div>
             {/* footer  */}
-            <footer className="text-gray-600 body-font bg-pink-600">
+            <footer className="text-gray-600 bg-pink-600 body-font">
                 {/* main  */}
-                <div className="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
+                <div className="container flex flex-col items-center px-5 py-5 mx-auto sm:flex-row">
                     {/* logo  */}
-                    <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                        <span className="text-xl font-bold">E-bharat</span>
+                    <a className="flex items-center justify-center font-medium text-white title-font md:justify-start">
+                        <span className="text-xl font-bold">MyStore</span>
                     </a>
                     {/* para  */}
-                    <p className="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                        © 2024 ebharat —
+                    <p className="mt-4 text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">
+                        © 2024 mystore —
                         <Link
                         to={'/'}
-                            className="text-gray-100 ml-1"
+                            className="ml-1 text-gray-100"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            @ebharat
+                            @mystore
                         </Link>
                     </p>
                     
                     {/* media icon  */}
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
                         {/* facebook  */}
                         <a className="text-gray-100 cursor-pointer">
                             <svg

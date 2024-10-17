@@ -80,7 +80,7 @@ const Navbar = () => {
                 {/* left */}
                 <div className="py-3 left lg:py-0">
                     <Link to={'/'}>
-                        <h2 className="text-2xl font-bold text-center text-white ">E-Bharat</h2>
+                        <h2 className="text-2xl font-bold text-center text-white ">MyStore</h2>
                     </Link>
                 </div>
 
